@@ -1,40 +1,14 @@
-# Section 7.3 snippets
+# Section 7.2 snippets
 import numpy as np
 
-integers = np.array([[1, 2, 3], [4, 5, 6]])
+numbers = np.array([2, 3, 5, 7, 11])
 
-integers
+type(numbers)
 
-floats = np.array([0.0, 0.1, 0.2, 0.3, 0.4])
+numbers
 
-floats
-
-# Determining an array’s Element Type
-integers.dtype
-
-floats.dtype
-
-# Determining an array’s Dimensions
-integers.ndim
-
-floats.ndim
-
-integers.shape
-
-floats.shape
-
-# Determining an array’s Number of Elements and Element Size
-integers.size
-
-integers.itemsize
-
-floats.size
-
-floats.itemsize
-
-
-    
-
+# Multidimensional Arguments
+np.array([[1, 2, 3], [4, 5, 6]])
 
 ##########################################################################
 # (C) Copyright 2019 by Deitel & Associates, Inc. and                    #

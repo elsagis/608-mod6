@@ -1,39 +1,14 @@
-# Section 7.3 snippets
+# Section 7.3 Self Check snippets
+
+# Exercise 1
 import numpy as np
 
-integers = np.array([[1, 2, 3], [4, 5, 6]])
+a = np.array([[2, 4, 6, 8, 10], [1, 3, 5, 7, 9]])
 
-integers
+a.ndim
 
-floats = np.array([0.0, 0.1, 0.2, 0.3, 0.4])
+a.shape
 
-floats
-
-# Determining an array’s Element Type
-integers.dtype
-
-floats.dtype
-
-# Determining an array’s Dimensions
-integers.ndim
-
-floats.ndim
-
-integers.shape
-
-floats.shape
-
-# Determining an array’s Number of Elements and Element Size
-integers.size
-
-integers.itemsize
-
-floats.size
-
-floats.itemsize
-
-
-    
 
 
 ##########################################################################

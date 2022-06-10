@@ -32,7 +32,14 @@ floats.size
 
 floats.itemsize
 
+# Iterating through a Multidimensional array’s Elements
+for row in integers:
+    for column in row:
+        print(column, end='  ')
+    print()
 
+for i in integers.flat:
+    print(i, end='  ')
     
 
 
